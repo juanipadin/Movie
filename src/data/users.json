@@ -1,0 +1,16 @@
+{
+    "Basic":{
+        "userId": 123,
+        "name": "Basic Thomas",
+        "role": "basic",
+        "iss": "https://www.netguru.com/",
+        "sub": "123"
+    },
+    "Premium":{
+        "userId": 456,
+        "name": "Premium Jim",
+        "role": "premium",
+        "iss": "https://www.netguru.com/",
+        "sub": "456"
+    }
+  }

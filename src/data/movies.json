@@ -1,0 +1,69 @@
+[
+  {
+    "nombre": "Tomate",
+    "precio": 22,
+    "id": 2
+  },
+  {
+    "title": "333333",
+    "released": "0333-03-03",
+    "genre": "333",
+    "director": "333333",
+    "id": 3
+  },
+  {
+    "title": "Hola",
+    "released": "2022-05-12",
+    "genre": "Terror",
+    "director": "Juani",
+    "id": 4
+  },
+  {
+    "title": "300",
+    "released": "2019-11-15",
+    "genre": "Historica",
+    "director": "Pepe Grillo",
+    "id": 5
+  },
+  {
+    "title": "300",
+    "released": "2019-11-15",
+    "genre": "Historica",
+    "director": "Pepe Grillo",
+    "id": 6
+  },
+  {
+    "title": "11",
+    "released": "0001-02-01",
+    "genre": "f",
+    "director": "f",
+    "id": 7
+  },
+  {
+    "title": "11",
+    "released": "0001-02-01",
+    "genre": "f",
+    "director": "f",
+    "id": 8
+  },
+  {
+    "username": "basic-thomas",
+    "password": "sR-_pcoow-27-6PAwCD8",
+    "id": 9
+  },
+  {
+    "username": "basic-thomas",
+    "password": "sR-_pcoow-27-6PAwCD8",
+    "id": 10
+  },
+  {
+    "username": "basic-thomas",
+    "password": "sR-_pcoow-27-6PAwCD8",
+    "id": 11
+  },
+  {
+    "username": "basic-thomas",
+    "password": "sR-_pcoow-27-6PAwCD8",
+    "id": 12
+  }
+]
