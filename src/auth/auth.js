@@ -16,7 +16,7 @@ function generateToken(user) {
 
 
 //middleware to authenticate
-function userAuthorization(req, res, next) {
+function auth(req, res, next) {
   const authHeader = req.headers.authorization;
 
   if (!authHeader) {
@@ -82,10 +82,10 @@ authWebRouter.post('/user', (req, res) => {
   })
   
   // DATOS
-authWebRouter.get('/user', userAuthorization, (req, res) => {
+authWebRouter.get('/user', auth, (req, res) => {
     const user = users.find(user => user.username == req.user.username);
 
     res.json(user)
   })
   
-module.exports = authWebRouter, userAuthorization()
+module.exports = authWebRouter, auth

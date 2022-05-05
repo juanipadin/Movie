@@ -14,13 +14,13 @@ const data = require('../data/movies.json');
 moviesInput.use(express.json());
 moviesInput.use(express.urlencoded({extended: true}))
 
-const userAuthorization = require('../auth/auth');
+const auth = require('../auth/auth');
 
-moviesInput.get('/movie', userAuthorization, (req, res) => {
+moviesInput.get('/movie', auth, (req, res) => {
     res.json(data)
 })
 
-moviesInput.post('/movie', userAuthorization, async (req, res) => {
+moviesInput.post('/movie', auth, async (req, res) => {
     const newMovie = req.body;
     console.log(req.body)
     const idProductoNuevo = await movieContainer.save(newMovie);
